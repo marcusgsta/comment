@@ -1,4 +1,4 @@
-Anax MODULE_NAME
+Marcusgsta COMMENT
 ==================================
 
 [![Latest Stable Version](https://poser.pugx.org/anax/MODULE_NAME/v/stable)](https://packagist.org/packages/anax/MODULE_NAME)
@@ -10,7 +10,7 @@ Anax MODULE_NAME
 [![Code Coverage](https://scrutinizer-ci.com/g/canax/MODULE_NAME/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/canax/MODULE_NAME/?branch=master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/d831fd4c-b7c6-4ff0-9a83-102440af8929/mini.png)](https://insight.sensiolabs.com/projects/d831fd4c-b7c6-4ff0-9a83-102440af8929)
 
-Anax MODULE_NAME module.
+Marcusgsta COMMENT module.
 
 
 

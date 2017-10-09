@@ -15,18 +15,6 @@ return [
             "text" => "Om",
             "route" => "about",
         ],
-        "report" => [
-            "text" => "Redovisningar",
-            "route" => "report",
-        ],
-        "remserver" => [
-            "text" => "Remserver",
-            "route" => "remserver",
-        ],
-        "books" => [
-            "text" => "Böcker",
-            "route" => "book",
-        ],
         "profile" => [
             "text" => "Min profil",
             "route" => "user/profile",

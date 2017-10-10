@@ -69,11 +69,16 @@ sudo chmod 777 data
 sudo chmod 666 data/db.sqlite
 ```
 
-
 ### CSS files
 
 ```
 rsync -av vendor/marcusgsta/comment/htdocs/css/ htdocs/css/
+```
+
+### JS files
+
+```
+rsync -av vendor/marcusgsta/comment/htdocs/js/ htdocs/js/
 ```
 
 ### DI services

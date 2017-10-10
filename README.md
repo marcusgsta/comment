@@ -14,17 +14,75 @@ Marcusgsta COMMENT module.
 
 
 
-Usage
+
+
+Install
 ------------------
 
-Short examples on how to use the module MODULE_NAME.
+Install using composer and then integrate the module with your Anax installation.
 
+
+
+### Install with composer
+
+```
+composer require marcusgsta/comment
+```
+
+
+
+### Configuration files for Comment System
+
+```
+rsync -av vendor/marcusgsta/comment/config{database.php, di.php,navbar.php} config/
+```
+
+
+### Router files
+
+```
+rsync -av vendor/marcusgsta/config/route/* config/route/
+```
+
+### Class files
+
+```
+rsync -av vendor/marcusgsta/comment/src/ src/
+```
+
+### Views
+
+```
+rsync -av vendor/marcusgsta/comment/view/ view/
+```
+
+### Database files
+
+```
+rsync -av vendor/marcusgsta/comment/data/ data/
+```
+
+### CSS files
+
+```
+rsync -av vendor/marcusgsta/comment/htdocs/css/ htdocs/css/
+```
+
+### DI services
+
+You need to add the services from the configuration in `vendor/marcusgsta/comment/config/di.php` into your own anax installation `config/di.php`.
+
+
+### Database sql files
+
+There is a default sqlite-database included in `data/db.sqlite`. If you need to set up a new database you can take a look at the sql-files in the `sql`-directory.
 
 
 License
 ------------------
 
 This software carries a MIT license.
+
 
 
 

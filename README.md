@@ -34,7 +34,7 @@ composer require marcusgsta/comment
 ### Configuration files for Comment System
 
 ```
-rsync -av vendor/marcusgsta/comment/config{database.php,navbar.php} config/
+rsync -av vendor/marcusgsta/comment/config/{database.php,navbar.php} config/
 ```
 
 

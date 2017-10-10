@@ -34,14 +34,14 @@ composer require marcusgsta/comment
 ### Configuration files for Comment System
 
 ```
-rsync -av vendor/marcusgsta/comment/config{database.php, di.php,navbar.php} config/
+rsync -av vendor/marcusgsta/comment/config{database.php,navbar.php} config/
 ```
 
 
 ### Router files
 
 ```
-rsync -av vendor/marcusgsta/config/route/* config/route/
+rsync -av vendor/marcusgsta/comment/config/route/ config/route/
 ```
 
 ### Class files
@@ -62,6 +62,14 @@ rsync -av vendor/marcusgsta/comment/view/ view/
 rsync -av vendor/marcusgsta/comment/data/ data/
 ```
 
+### Set permissions on database folder and file
+
+```
+sudo chmod 777 data
+sudo chmod 666 data/db.sqlite
+```
+
+
 ### CSS files
 
 ```
@@ -70,13 +78,18 @@ rsync -av vendor/marcusgsta/comment/htdocs/css/ htdocs/css/
 
 ### DI services
 
-You need to add the services from the configuration in `vendor/marcusgsta/comment/config/di.php` into your own anax installation `config/di.php`.
+You need to add and replace the services from the configuration in `vendor/marcusgsta/comment/config/di.php` into your own anax installation `config/di.php`. Services that already exist need to be replaced with the new ones, since they have been edited.
 
 
 ### Database sql files
 
 There is a default sqlite-database included in `data/db.sqlite`. If you need to set up a new database you can take a look at the sql-files in the `sql`-directory.
 
+### Administrator usage
+Log in with username: admin and password: admin.
+You will be able to set other users as admin by creating new user and assigning them role: 10. You will also be able to edit/delete all comments and all users.
+
+Regular users can only edit/delete their own comments and their own user profile.
 
 License
 ------------------

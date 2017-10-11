@@ -77,6 +77,7 @@ class CreateUserForm extends FormModel
     public function callbackSubmit()
     {
     // Get values from the submitted form
+
         $acronym       = $this->form->value("acronym");
         $password      = $this->form->value("password");
         $passwordAgain = $this->form->value("password-again");

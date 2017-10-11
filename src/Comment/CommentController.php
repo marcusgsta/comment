@@ -38,12 +38,9 @@ class CommentController implements
      *
      * @return void
      */
-    public function getComments()
+    public function getComments($test = "not_test")
     {
-        // $title      = "A collection of items";
-        // $view       = $this->di->get("view");
-        // $pageRender = $this->di->get("pageRender");
-        $route = $this->di->request->getRoute();
+        //$route = $this->di->request->getRoute();
 
         $comment = new Comment();
         $comment->setDb($this->di->get("db"));
@@ -51,9 +48,15 @@ class CommentController implements
         $allComments = $comment->findAll();
 
         // filter array of comments to current page
-        $newArray = array_filter($allComments, function ($obj) {
-            $route = $this->di->request->getRoute();
+        $newArray = array_filter($allComments, function ($obj) use ($test) {
+
+            $route = $this->di->get("request")->getRoute();
             $route = empty($route) ? "index" : $route;
+
+            // for testing purposes
+            if ($test == "test") {
+                $route = "index";
+            }
 
             if ($obj->page != $route) {
                 return false;
@@ -62,15 +65,9 @@ class CommentController implements
         });
 
         $data = [
-            // "items" => $comment->findAll(),
             "items" => $newArray,
         ];
-
         return $data;
-
-        // $view->add("book/crud/view-all", $data);
-        //
-        // $pageRender->renderPage(["title" => $title]);
     }
 
     /**

@@ -37,9 +37,14 @@ composer require marcusgsta/comment
 ### Configuration files for Comment System
 
 ```
-rsync -av vendor/marcusgsta/comment/config/{database.php,navbar.php} config/
+rsync -av vendor/marcusgsta/comment/config/{database.php,navbar.php, di-for-testing.php} config/
 ```
 
+### Config files for testing
+
+```
+rsync -av vendor/marcusgsta/comment/config/test config/test/
+```
 
 ### Router files
 

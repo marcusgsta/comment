@@ -3,6 +3,7 @@
 namespace Anax\User;
 
 use \Anax\DI\DIFactoryDefault;
+use \Anax\DI\DIFactoryConfig;
 use \Anax\Configure\ConfigureInterface;
 use \Anax\Configure\ConfigureTrait;
 use \Anax\DI\InjectionAwareInterface;
@@ -27,7 +28,8 @@ class UserControllerTest extends TestCase implements
      */
     public function setUp()
     {
-        $this->di = new DIFactoryDefault();
+        //$this->di = new DIFactoryDefault("di-for-testing");
+        $this->di = new DIFactoryConfig("di-for-testing.php");
         //$this->di = new DIForTesting();
     }
 
@@ -47,6 +49,19 @@ class UserControllerTest extends TestCase implements
     public function testInjectDi()
     {
         $user = new UserController();
+        $obj = $user->setDI($this->di);
+        $this->assertEquals($user, $obj);
+    }
+
+    /**
+     * test getPostLogin.
+     */
+    public function testgetPostLogin()
+    {
+        $user = new UserController();
+        $obj       = $this->di->get("view");
+
+
         $obj = $user->setDI($this->di);
         $this->assertEquals($user, $obj);
     }

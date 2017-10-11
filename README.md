@@ -2,7 +2,7 @@ Marcusgsta COMMENT
 ==================================
 
 [![Latest Stable Version](https://poser.pugx.org/marcusgsta/comment/v/stable)](https://packagist.org/packages/marcusgsta/comment)
-[![Join the chat at https://gitter.im/mosbth/anax](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/canax?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/mosbth/anax](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/marcusgsta/comment?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/marcusgsta/comment.svg?branch=master)](https://travis-ci.org/marcusgsta/comment)
 [![CircleCI](https://circleci.com/gh/marcusgsta/comment.svg?style=svg)](https://circleci.com/gh/marcusgsta/comment)
 [![Build Status](https://scrutinizer-ci.com/g/marcusgsta/comment/badges/build.png?b=master)](https://scrutinizer-ci.com/g/marcusgsta/comment/build-status/master)

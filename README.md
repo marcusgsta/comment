@@ -2,13 +2,13 @@ Marcusgsta COMMENT
 ==================================
 
 [![Latest Stable Version](https://poser.pugx.org/marcusgsta/comment/v/stable)](https://packagist.org/packages/marcusgsta/comment)
-<!-- [![Join the chat at https://gitter.im/mosbth/anax](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/canax?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) -->
+[![Join the chat at https://gitter.im/mosbth/anax](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/canax?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/marcusgsta/comment.svg?branch=master)](https://travis-ci.org/marcusgsta/comment)
 [![CircleCI](https://circleci.com/gh/marcusgsta/comment.svg?style=svg)](https://circleci.com/gh/marcusgsta/comment)
 [![Build Status](https://scrutinizer-ci.com/g/marcusgsta/comment/badges/build.png?b=master)](https://scrutinizer-ci.com/g/marcusgsta/comment/build-status/master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/marcusgsta/comment/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/marcusgsta/comment/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/marcusgsta/comment/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/marcusgsta/comment/?branch=master)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/d831fd4c-b7c6-4ff0-9a83-102440af8929/mini.png)](https://insight.sensiolabs.com/projects/d831fd4c-b7c6-4ff0-9a83-102440af8929)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/efdf126a-3a9b-472a-ac31-0668ba47b59c/mini.png)](https://insight.sensiolabs.com/projects/efdf126a-3a9b-472a-ac31-0668ba47b59c)
 
 Marcusgsta COMMENT module.
 

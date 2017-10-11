@@ -44,6 +44,10 @@ class EditUserForm extends FormModel
                 "password" => [
                     "type"        => "password",
                 ],
+                "role" => [
+                    "type"        => "hidden",
+                    "value"       => 1,
+                ],
 
                 "password-again" => [
                     "type"        => "password",
@@ -100,6 +104,7 @@ class EditUserForm extends FormModel
         $user->acronym = $acronym;
         $user->email = $email;
         $user->id = $id;
+        $user->role = 1;
 
         // create/update gravatar from email
         $gravatar = $user->gravatar($email);

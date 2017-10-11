@@ -20,11 +20,11 @@ class EditUserFormTest extends \PHPUnit_Framework_TestCase
     {
         $this->user = new \Anax\User\User();
         $this->user->setDb(self::$di->get("db"));
-        $this->user->acronym = "Ture";
+        $this->user->acronym = "Sten";
         $this->user->password = "pass";
         $this->user->email = "marcus@hejsan.se";
         $this->user->gravatar = "marcus@hejsan.se";
-        $this->user->role = 10;
+        $this->user->role = 1;
         $this->user->save();
     }
 
@@ -46,7 +46,7 @@ class EditUserFormTest extends \PHPUnit_Framework_TestCase
      */
     public function testEditUserForm()
     {
-        $this->form = new EditUserForm(self::$di, "Ture");
+        $this->form = new EditUserForm(self::$di, "Sten");
         $this->assertInstanceOf("Anax\User\HTMLForm\EditUserForm", $this->form);
     }
 
@@ -55,7 +55,7 @@ class EditUserFormTest extends \PHPUnit_Framework_TestCase
      */
     public function testcallbackSubmit()
     {
-        $this->form = new EditUserForm(self::$di, "Ture");
+        $this->form = new EditUserForm(self::$di, "Sten");
         $this->form->callbackSubmit();
     }
 }

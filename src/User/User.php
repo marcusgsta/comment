@@ -29,7 +29,7 @@ class User extends ActiveRecordModel
     public $updated;
     public $deleted;
     public $active;
-    public $role;
+    //public $role;
 
     /**
      * Set the password.

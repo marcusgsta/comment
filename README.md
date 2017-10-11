@@ -9,9 +9,8 @@ Marcusgsta COMMENT
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/marcusgsta/comment/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/marcusgsta/comment/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/marcusgsta/comment/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/marcusgsta/comment/?branch=master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/efdf126a-3a9b-472a-ac31-0668ba47b59c/mini.png)](https://insight.sensiolabs.com/projects/efdf126a-3a9b-472a-ac31-0668ba47b59c)
-[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/codeclimate/codeclimate)
-[![Test Coverage](https://codeclimate.com/github/codeclimate/codeclimate/badges/coverage.svg)](https://codeclimate.com/github/codeclimate/codeclimate/coverage)
-[![Issue Count](https://codeclimate.com/github/codeclimate/codeclimate/badges/issue_count.svg)](https://codeclimate.com/github/codeclimate/codeclimate)
+[![Maintainability](https://api.codeclimate.com/v1/badges/59bf0d51b17dafc2f59d/maintainability)](https://codeclimate.com/github/marcusgsta/comment/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/59bf0d51b17dafc2f59d/test_coverage)](https://codeclimate.com/github/marcusgsta/comment/test_coverage)
 
 Marcusgsta COMMENT module.
 

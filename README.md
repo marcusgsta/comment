@@ -9,6 +9,9 @@ Marcusgsta COMMENT
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/marcusgsta/comment/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/marcusgsta/comment/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/marcusgsta/comment/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/marcusgsta/comment/?branch=master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/efdf126a-3a9b-472a-ac31-0668ba47b59c/mini.png)](https://insight.sensiolabs.com/projects/efdf126a-3a9b-472a-ac31-0668ba47b59c)
+[![Code Climate](https://codeclimate.com/github/codeclimate/codeclimate/badges/gpa.svg)](https://codeclimate.com/github/codeclimate/codeclimate)
+[![Test Coverage](https://codeclimate.com/github/codeclimate/codeclimate/badges/coverage.svg)](https://codeclimate.com/github/codeclimate/codeclimate/coverage)
+[![Issue Count](https://codeclimate.com/github/codeclimate/codeclimate/badges/issue_count.svg)](https://codeclimate.com/github/codeclimate/codeclimate)
 
 Marcusgsta COMMENT module.
 

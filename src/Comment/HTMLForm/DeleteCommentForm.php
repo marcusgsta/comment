@@ -56,7 +56,7 @@ class DeleteCommentForm extends FormModel
         // filter array of comments to current user
         $newArray = array_filter($allComments, function ($obj) {
             $acronym = $this->di->session->get("user");
-            $role = $this->di->commentController->getRole($acronym);
+            $role = $this->di->get("commentController")->getRole($acronym);
             // if user is not administrator ...
             if ($role != 10) {
                 // filter out user's comment

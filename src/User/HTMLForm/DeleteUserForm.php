@@ -52,7 +52,8 @@ class DeleteUserForm extends FormModel
      *
      * @return array with key value of all items.
      */
-    protected function getAllItems()
+    // protected function getAllItems()
+    public function getAllItems()
     {
         $user = new User();
         $user->setDb($this->di->get("db"));

@@ -1,5 +1,5 @@
 <?php
-namespace Anax\LogIn;
+namespace Anax\Login;
 
 use \Anax\Configure\ConfigureInterface;
 use \Anax\Configure\ConfigureTrait;
@@ -9,7 +9,7 @@ use \Anax\Di\InjectionAwareTrait;
 /**
  * A log in controller class.
  */
-class LogInController implements
+class LoginController implements
     ConfigureInterface,
     InjectionAwareInterface
 {
@@ -27,7 +27,7 @@ class LogInController implements
      *
      * @return void
      */
-    public function logInUser($acronym)
+    public function loginUser($acronym)
     {
 
         $this->di->session->set("user", $acronym);

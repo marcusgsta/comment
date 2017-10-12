@@ -71,10 +71,10 @@ return [
                 return $obj;
             }
         ],
-        "logInController" => [
+        "loginController" => [
             "shared" => true,
             "callback" => function () {
-                $obj = new \Anax\LogIn\LogInController();
+                $obj = new \Anax\Login\LoginController();
                 $obj->setDI($this);
                 return $obj;
             }

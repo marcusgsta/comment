@@ -10,7 +10,7 @@ Marcusgsta COMMENT
 [![Code Coverage](https://scrutinizer-ci.com/g/marcusgsta/comment/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/marcusgsta/comment/?branch=master)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/efdf126a-3a9b-472a-ac31-0668ba47b59c/mini.png)](https://insight.sensiolabs.com/projects/efdf126a-3a9b-472a-ac31-0668ba47b59c)
 [![Maintainability](https://api.codeclimate.com/v1/badges/59bf0d51b17dafc2f59d/maintainability)](https://codeclimate.com/github/marcusgsta/comment/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/59bf0d51b17dafc2f59d/test_coverage)](https://codeclimate.com/github/marcusgsta/comment/test_coverage)
+
 
 Marcusgsta COMMENT module.
 
@@ -23,7 +23,11 @@ Install
 
 Install using composer and then integrate the module with your Anax installation.
 
+### Install an anax base
 
+```
+anax create questions ramverk1-site-develop
+```
 
 ### Install with composer
 
@@ -36,7 +40,7 @@ composer require marcusgsta/comment
 ### Configuration files for Comment System
 
 ```
-rsync -av vendor/marcusgsta/comment/config/{database.php,navbar.php, di-for-testing.php} config/
+rsync -av vendor/marcusgsta/comment/config/{database.php,navbar.php,di-for-testing.php} config/
 ```
 
 ### Config files for testing
@@ -72,8 +76,7 @@ rsync -av vendor/marcusgsta/comment/data/ data/
 ### Set permissions on database folder and file
 
 ```
-sudo chmod 777 data
-sudo chmod 666 data/db.sqlite
+sudo chmod 777 data && chmod 666 data/db.sqlite
 ```
 
 ### CSS files

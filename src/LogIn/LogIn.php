@@ -1,6 +1,6 @@
 <?php
 
-namespace Anax\LogIn;
+namespace Anax\Login;
 
 use \Anax\Configure\ConfigureInterface;
 use \Anax\Configure\ConfigureTrait;
@@ -8,7 +8,7 @@ use \Anax\Configure\ConfigureTrait;
 /**
  * Login Class.
  */
-class LogIn implements ConfigureInterface
+class Login implements ConfigureInterface
 {
     use ConfigureTrait;
 }

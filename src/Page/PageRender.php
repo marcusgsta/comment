@@ -42,7 +42,7 @@ class PageRender implements PageRenderInterface, InjectionAwareInterface
 
         // check if a user is logged in
         // $acronym = $this->di->session->get("user");
-        $acronym = $this->di->get("logInController")->isLoggedIn();
+        $acronym = $this->di->get("loginController")->isLoggedIn();
 
         $role = $this->di->get("commentController")->getRole($acronym);
 

@@ -19,23 +19,28 @@
 $i = 0;
 if (isset($comments)) :
     if (!empty($comments)) :
-        foreach ($comments as $comment) : ?>
-
+        foreach ($comments as $comment) :
+            // use htmlentites and then textfilter markdown
+            $textfilter = $this->di->get("textfilter");
+            $acronym = htmlentities($comment->acronym);
+            $commenttext = htmlentities($comment->commenttext);
+            $commenttext = $textfilter->parse($commenttext, ["markdown"]);
+?>
     <tr><td>
 
     </td></tr>
 
         <tr><td>
-        Kommentar: <?=$comment->commenttext;?>
+        Kommentar: <?=$commenttext->text;?>
         </td></tr>
 
         <tr><td>
-        Akronym: <?=$comment->acronym;?>
+        Akronym: <?=$acronym;?>
         </td>
         <?php //$id = $comment['id']; ?>
     </tr>
 
-    <?php if ($user == $comment->acronym || $role == 10) : ?>
+    <?php if ($user == $acronym || $role == 10) : ?>
     <tr>
     <td><a href="comment/edit/<?=$comment->page . '/' . $comment->id;?>">Redigera</a></td>
     </tr>

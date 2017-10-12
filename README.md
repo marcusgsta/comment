@@ -26,7 +26,7 @@ Install using composer and then integrate the module with your Anax installation
 ### Install an anax base
 
 ```
-anax create questions ramverk1-site-develop
+anax create name-of-your-app ramverk1-site-develop
 ```
 
 ### Install with composer
@@ -34,7 +34,6 @@ anax create questions ramverk1-site-develop
 ```
 composer require marcusgsta/comment
 ```
-
 
 
 ### Configuration files for Comment System
@@ -53,12 +52,6 @@ rsync -av vendor/marcusgsta/comment/config/test config/test/
 
 ```
 rsync -av vendor/marcusgsta/comment/config/route/ config/route/
-```
-
-### Class files
-
-```
-rsync -av vendor/marcusgsta/comment/src/ src/
 ```
 
 ### Views

@@ -38,8 +38,5 @@
         "anax/page": "^1.0",
         "anax/database": "^1.1",
         "anax/htmlform": "^1.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^5.7"
     }
 }

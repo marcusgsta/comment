@@ -7,7 +7,7 @@ namespace Anax\User\HTMLForm;
  * HTML Form elements.
  *
  */
-class UserLogInFormTest extends \PHPUnit_Framework_TestCase
+class UserLoginFormTest extends \PHPUnit_Framework_TestCase
 {
     protected $form;
     protected static $di;
@@ -43,8 +43,8 @@ class UserLogInFormTest extends \PHPUnit_Framework_TestCase
      */
     public function testConstruct()
     {
-        $this->form = new UserLogInForm(self::$di);
-        $this->assertInstanceOf("Anax\User\HTMLForm\UserLogInForm", $this->form);
+        $this->form = new UserLoginForm(self::$di);
+        $this->assertInstanceOf("Anax\User\HTMLForm\UserLoginForm", $this->form);
     }
 
     /**

@@ -9,7 +9,7 @@ use \Anax\User\User;
 /**
  * Example of FormModel implementation.
  */
-class UserLogInForm extends FormModel
+class UserLoginForm extends FormModel
 {
     /**
      * Constructor injects with DI container.
@@ -86,7 +86,7 @@ class UserLogInForm extends FormModel
             return false;
         }
 
-        $this->di->get("logInController")->logInUser($user->acronym);
+        $this->di->get("loginController")->loginUser($user->acronym);
 
         $this->form->addOutput("Användare " . $user->acronym . " loggade in.");
 

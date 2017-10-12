@@ -6,7 +6,7 @@ use \Anax\Configure\ConfigureInterface;
 use \Anax\Configure\ConfigureTrait;
 use \Anax\DI\InjectionAwareInterface;
 use \Anax\Di\InjectionAwareTrait;
-use \Anax\User\HTMLForm\UserLogInForm;
+use \Anax\User\HTMLForm\UserLoginForm;
 use \Anax\User\HTMLForm\CreateUserForm;
 use \Anax\User\HTMLForm\EditUserForm;
 use \Anax\User\HTMLForm\DeleteUserForm;
@@ -70,7 +70,7 @@ class UserController implements
         $title      = "A login page";
         $view       = $this->di->get("view");
         $pageRender = $this->di->get("pageRender");
-        $form       = new UserLogInForm($this->di);
+        $form       = new UserLoginForm($this->di);
 
         $form->check();
 

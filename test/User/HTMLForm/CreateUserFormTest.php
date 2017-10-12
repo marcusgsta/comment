@@ -49,13 +49,4 @@ class CreateUserFormTest extends \PHPUnit_Framework_TestCase
         $this->form = new CreateUserForm(self::$di, "Sten");
         $this->assertInstanceOf("Anax\User\HTMLForm\CreateUserForm", $this->form);
     }
-
-    /**
-     * Test callbacksubmit().
-     */
-    // public function testcallbackSubmit()
-    // {
-    //     $this->form = new CreateUserForm(self::$di, "Sten");
-    //     $this->form->callbackSubmit();
-    // }
 }

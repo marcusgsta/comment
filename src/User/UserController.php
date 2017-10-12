@@ -39,20 +39,20 @@ class UserController implements
      *
      * @return void
      */
-    public function getIndex()
-    {
-        $title      = "A index page";
-        $view       = $this->di->get("view");
-        $pageRender = $this->di->get("pageRender");
-
-        $data = [
-            "content" => "An index page",
-        ];
-
-        $view->add("default2/article", $data);
-
-        $pageRender->renderPage(["title" => $title]);
-    }
+    // public function getIndex()
+    // {
+    //     $title      = "A index page";
+    //     $view       = $this->di->get("view");
+    //     $pageRender = $this->di->get("pageRender");
+    //
+    //     $data = [
+    //         "content" => "An index page",
+    //     ];
+    //
+    //     $view->add("default2/article", $data);
+    //
+    //     $pageRender->renderPage(["title" => $title]);
+    // }
 
 
 

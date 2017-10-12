@@ -43,7 +43,7 @@ class UserLogInFormTest extends \PHPUnit_Framework_TestCase
      */
     public function testConstruct()
     {
-        $this->form = new \Anax\User\HTMLForm\UserLogInForm(self::$di);
+        $this->form = new UserLogInForm(self::$di);
         $this->assertInstanceOf("Anax\User\HTMLForm\UserLogInForm", $this->form);
     }
 

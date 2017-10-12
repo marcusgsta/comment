@@ -21,7 +21,7 @@ return [
             "info" => "Logout a user.",
             "requestMethod" => "get|post",
             "path" => "logout",
-            "callable" => ["logInController", "logOut"],
+            "callable" => ["loginController", "logOut"],
         ],
         [
             "info" => "Show user profile.",

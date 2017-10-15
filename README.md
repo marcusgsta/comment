@@ -1,6 +1,8 @@
 Marcusgsta COMMENT
 ==================================
 
+[![Join the chat at https://gitter.im/marcusgsta/comment](https://badges.gitter.im/marcusgsta/comment.svg)](https://gitter.im/marcusgsta/comment?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Latest Stable Version](https://poser.pugx.org/marcusgsta/comment/v/stable)](https://packagist.org/packages/marcusgsta/comment)
 [![Join the chat at https://gitter.im/marcusgsta/comment](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/marcusgsta/comment?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/marcusgsta/comment.svg?branch=master)](https://travis-ci.org/marcusgsta/comment)
